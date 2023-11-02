@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+    height: 110px;
+    border-bottom: 1px solid #00000041;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+.title a {
+    color: pink;
+    text-decoration: none;
+    font-size: 60px;
+    -webkit-text-stroke: 0.1px rgb(19, 19, 19);
+    font-family: 'Bagel Fat One', cursive;
+    line-height: 110px;
+}
+
+.explain {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (max-width: 971px){
+    .explain {
+        display: none;
+    }
+}

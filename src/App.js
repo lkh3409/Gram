@@ -1,14 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './components/Main';
+import Result from './components/Result';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <header className="header">
-      <div className="title">우리 사이는 몇그램 ?!</div>
-      <div className="explain">
-        <div>인스타그램 궁합 판독기</div>
-      </div>
-    </header>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' exact element={<Main />} />
+        <Route path='/test.result' element={<Result />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
