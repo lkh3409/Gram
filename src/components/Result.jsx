@@ -6,7 +6,7 @@ const Result = () => {
         <>
             <Header />
         </>
-    )
+    );
 }
 
 export default Result;
