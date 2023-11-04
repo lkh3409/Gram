@@ -9,13 +9,13 @@
     display: flex;
     position: absolute;
     left: 50%;
-    top: 60vh;
+    top: 50vh;
     transform: translate(-50%, -50%); 
 }
 
-.profile > div {
-    margin: 0 400px;
-}
+/*.profile > div {
+    margin: 0 200px;
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 .mainBtn  {
