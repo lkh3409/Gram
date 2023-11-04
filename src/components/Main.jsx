@@ -26,7 +26,7 @@ const Main  = () => {
                 <button className="mainBtn" onClick={goToResult}>결과 확인하기</button>
             </div>
         </div>
-    )
+    );
 }
 
 export default Main;

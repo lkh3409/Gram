@@ -11,7 +11,7 @@ const Header  = () => {
                 <p>인스타그램 궁합 판독기</p>
             </div>
         </header>
-    )
+    );
 }
 
 export default Header;
