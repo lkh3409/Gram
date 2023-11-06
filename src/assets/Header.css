@@ -6,7 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 .title a {
-    color: pink;
+    background-image: linear-gradient(to right, rgba(50, 5, 249, 0.8), rgba(255, 60, 170, 0.8), rgba(255, 61, 107, 0.8), rgba(255, 128, 0, 0.8));
+    -webkit-background-clip: text;
+    color: transparent;
     text-decoration: none;
     font-size: 60px;
     -webkit-text-stroke: 0.1px rgb(19, 19, 19);

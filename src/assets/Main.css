@@ -1,5 +1,5 @@
 .container {
-    background: linear-gradient(to right, pink, rgb(157, 207, 227));
+    background: linear-gradient(white, pink);
     height: 87.9vh;
     text-align: center;
     position: relative;
@@ -13,9 +13,23 @@
     transform: translate(-50%, -50%); 
 }
 
-/*.profile > div {
-    margin: 0 200px;
-} */
+.search1 {
+    margin-right: 25vw;
+}
+
+.search2 {
+    margin-left: 25vw;
+}
+
+@media (max-width: 830px){
+    .search1 {
+        margin-right: 15vw;
+    }
+    
+    .search2 {
+        margin-left: 15vw;
+    }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 .mainBtn  {
@@ -29,7 +43,7 @@
     color: gray;
     background-color: white;
     line-height: 70px;
-    border: 3px solid gray;
+    border: none;
     border-radius: 50px;
     cursor: pointer;
 }
