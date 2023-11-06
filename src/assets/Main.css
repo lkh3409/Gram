@@ -9,7 +9,7 @@
     display: flex;
     position: absolute;
     left: 50%;
-    top: 50vh;
+    top: 35vh;
     transform: translate(-50%, -50%); 
 }
 
@@ -21,7 +21,7 @@
     margin-left: 25vw;
 }
 
-@media (max-width: 830px){
+@media (max-width: 960px){
     .search1 {
         margin-right: 15vw;
     }
