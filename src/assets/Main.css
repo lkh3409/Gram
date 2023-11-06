@@ -9,7 +9,7 @@
     display: flex;
     position: absolute;
     left: 50%;
-    top: 50vh;
+    top: 35vh;
     transform: translate(-50%, -50%); 
 }
 
