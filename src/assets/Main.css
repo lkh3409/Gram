@@ -1,5 +1,5 @@
 .container {
-    background: linear-gradient(white, pink);
+    background: linear-gradient(to right, pink, skyblue);
     height: 87.9vh;
     text-align: center;
     position: relative;
@@ -21,7 +21,7 @@
     margin-left: 25vw;
 }
 
-@media (max-width: 960px){
+@media (max-width: px){
     .search1 {
         margin-right: 15vw;
     }
