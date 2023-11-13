@@ -6,11 +6,11 @@ const Heart = () => {
 
     useEffect(() => {
         // 테스트용 코드. heartPercentage에 퍼센티지 입력.
+        /*
         const heartPercentage = 50;
-        setFillHeart(heartPercentage) 
+        setFillHeart(heartPercentage) */
 
-        // 서버로부터 데이터 가져옴, 백엔드와 연결시 주석 해제
-        /* const fetchData = async () => {
+        const fetchData = async () => {
             try {
                 const response = await fetch("/api/getPercentage") // 서버 엔드포인트 변경
 
@@ -25,7 +25,7 @@ const Heart = () => {
             }
         };
 
-        fetchData(); */
+        fetchData();
     },[]);
 
     return (

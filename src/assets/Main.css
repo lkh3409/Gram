@@ -9,7 +9,7 @@
     display: flex;
     position: absolute;
     left: 50%;
-    top: 35vh;
+    top: 45%;
     transform: translate(-50%, -50%); 
 }
 
@@ -21,7 +21,7 @@
     margin-left: 25vw;
 }
 
-@media (max-width: px){
+@media (max-width: 970px){
     .search1 {
         margin-right: 15vw;
     }
@@ -43,7 +43,7 @@
     color: gray;
     background-color: white;
     line-height: 70px;
-    border: none;
+    border: solid 3px gray;
     border-radius: 50px;
     cursor: pointer;
 }
