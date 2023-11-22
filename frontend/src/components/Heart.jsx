@@ -7,17 +7,17 @@ const Heart = () => {
     useEffect(() => {
         // 테스트용 코드. heartPercentage에 퍼센티지 입력.
         
-        const heartPercentage = 50;
-        setFillHeart(heartPercentage) 
+        // const heartPercentage = 50;
+        // setFillHeart(heartPercentage) 
 
-        /*const fetchData = async () => {
+        const fetchData = async () => {
             try {
-                const response = await fetch("/api/getPercentage") // 서버 엔드포인트 변경
+                const response = await fetch("/sim") // 서버 엔드포인트 변경
 
                 if (response.ok) {
                     const data = await response.json();
-                    if (data.percentage) {
-                        setFillHeart(data.percentage);
+                    if (data) {
+                        setFillHeart(data);
                     }
                 }
             } catch (error) {
@@ -25,7 +25,7 @@ const Heart = () => {
             }
         };
 
-        fetchData();*/
+        fetchData();
     },[]);
 
     return (

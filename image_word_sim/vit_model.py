@@ -4,8 +4,8 @@ import torch
 import torch.nn.functional as F
 from word2vec import cosim
 # 이미지 파일들의 경로 리스트 (두 그룹으로 나누기)
-image_paths_group1 = ['image_classification_vit/jegalhhhhhhhhhhhhhhhhhhhhsex.y1.jpg', 'image_classification_vit/jegalhhhhhhhhhhhhhhhhhhhhsex.y2.jpg']
-image_paths_group2 = ['image_classification_vit/im_agjun1.jpg', 'image_classification_vit/im_agjun2.jpg']
+image_paths_group1 = ['image_word_sim/jegalhhhhhhhhhhhhhhhhhhhhsex.y1.jpg', 'image_word_sim/jegalhhhhhhhhhhhhhhhhhhhhsex.y2.jpg']
+image_paths_group2 = ['image_word_sim/im_agjun1.jpg', 'image_word_sim/im_agjun2.jpg']
 
 # 모델과 프로세서 불러오기
 processor = ViTImageProcessor.from_pretrained('google/vit-base-patch16-224')

@@ -6,10 +6,10 @@ const Profile = () => {
 
     useEffect(() => {
         // 서버로부터 이미지 URL을 가져오는 요청을 보냅니다.
-        fetch("/api/getImage") // 서버의 엔드포인트를 적절하게 지정
+        fetch("/crawl") // 서버의 엔드포인트를 적절하게 지정
             .then(response => response.json())
             .then(data => {
-                if (data.imageUrl) {
+                if (data.image) {
                     setImageUrl(data.imageUrl); // 반환된 이미지 URL을 설정
                 }
             })
@@ -21,7 +21,7 @@ const Profile = () => {
     return (
         <div>
             <Avatar 
-                src={image} 
+                src={`data:image/jpeg;base64,${image}`}
                 style={{ margin: '20px' }} 
                 size={200}
             />

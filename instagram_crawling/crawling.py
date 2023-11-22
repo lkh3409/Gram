@@ -13,7 +13,6 @@ driver.get(url)
 time.sleep(3) #delay 방지
 html = driver.page_source
 soup = BeautifulSoup(html,features='lxml')
-
 insta = soup.select('._aabd._aa8k._al3l') #image class 
 
 n=1 #이미지 순번
