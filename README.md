@@ -1,5 +1,5 @@
 # Gram
-"Gram" is a software that receives t, analyzes posts, extracts keywords, and outputs compatibility through the similarity of keywords
+"Gram" is a software that analyzes posts, extracts keywords, and outputs compatibility through the similarity of keywords
 
 # How to use?
 1. install
