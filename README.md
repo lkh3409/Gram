@@ -19,10 +19,16 @@
    cd frontend
    npm start
    ```
-# preview
+# Architecture
 
-# reference
-[VIT model](https://huggingface.co/google/vit-base-patch16-224)
-[word2vec](https://www.kaggle.com/models/google/wiki-words/frameworks/tensorFlow2/variations/500-with-normalization/versions/1?tfhub-redirect=true)
+# Preview
+![ㅁㄴㅇㅁㅇㄴㄴㅁㅇ](https://github.com/lkh3409/Gram/assets/67497047/f8b8cea8-253f-455d-b0bb-03dd0e8b82d8)</br>
+![ㅁㅁㅁ1](https://github.com/lkh3409/Gram/assets/67497047/24d055f3-3bee-43d6-989f-3a32544828aa)</br>
+
+
+# Reference
+[VIT model](https://huggingface.co/google/vit-base-patch16-224)</br>
+[word2vec](https://www.kaggle.com/models/google/wiki-words/frameworks/tensorFlow2/variations/500-with-normalization/versions/1?tfhub-redirect=true)</br>
+
 
 
