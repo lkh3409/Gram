@@ -1,5 +1,6 @@
 import React from "react";
 import '../assets/Header.css';
+import '../assets/fonts/Font.css';
 
 const Header  = () => {
     return (

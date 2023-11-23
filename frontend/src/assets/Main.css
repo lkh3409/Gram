@@ -1,5 +1,9 @@
-.container {
+.home {
     background: linear-gradient(to right, pink, skyblue);
+
+}
+
+.container {
     height: 87.9vh;
     text-align: center;
     position: relative;
@@ -31,7 +35,6 @@
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 .mainBtn  {
     position: absolute;
     top: 65vh;
@@ -39,10 +42,11 @@
     width: 400px;
     height: 80px;
     font-size: 40px;
-    font-family: 'Bagel Fat One';
-    color: gray;
-    background-color: white;
-    line-height: 70px;
+    font-family: 'Cafe24Ssurround';
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+    background-color: rgba(255, 255, 255, 0.5);
+    line-height: 80px;
     border: solid 3px gray;
     border-radius: 50px;
     cursor: pointer;

@@ -63,7 +63,7 @@ const Main  = () => {
                         <Searchid2 onImageChange={handleImageChange2} />
                     </div>
                 </div>
-                <button className="mainBtn" onClick={goToResult}>결과 확인하기</button>
+                <button className="mainBtn" onClick={goToResult}>GO RESULT</button>
             </div>
         </div>
     );
