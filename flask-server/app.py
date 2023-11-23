@@ -1,8 +1,6 @@
 from flask import Flask, request, jsonify, send_from_directory, g, session
-import io
 import base64
 from urllib.request import urlopen
-from urllib.parse import quote_plus as qp
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -10,16 +8,13 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
-from waitress import serve
 from transformers import ViTImageProcessor, ViTForImageClassification
 from PIL import Image
 import torch
 import torch.nn.functional as F
 from flask_cors import CORS
-import ssl
 from webdriver_manager.chrome import ChromeDriverManager
 from word2vec import cosim
-
 
 app = Flask(__name__)
 CORS(app)
@@ -122,11 +117,6 @@ def recog1():
     print("Predicted labels for group 1:", list1)
 
     return 
-
-
-
-
-
 
 
 @app.route("/user2", methods=['POST'])
@@ -233,7 +223,6 @@ def sim():
     print("#####")
     result=int(cosim(result1,result2))
     return jsonify(result)
-
 
 if __name__ == '__main__':
     app.run(debug=True)

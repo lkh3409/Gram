@@ -59,7 +59,7 @@ const Heart = () => {
                     clipPath="url(#heartClip)"
                 />
             </svg>
-            <div className="percentageText">{`${fillHeart}%`}</div>
+            <div className="percentageText">{`${fillHeart}g`}</div>
         </div>
     )
 };
