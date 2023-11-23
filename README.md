@@ -20,7 +20,7 @@
    npm start
    ```
 # Architecture
-
+![스크린샷 2023-11-23 224946](https://github.com/lkh3409/Gram/assets/67497047/f337dba2-46ff-47d8-946b-27b61e8b494f)</br>
 # Preview
 ![ㅁㄴㅇㅁㅇㄴㄴㅁㅇ](https://github.com/lkh3409/Gram/assets/67497047/f8b8cea8-253f-455d-b0bb-03dd0e8b82d8)</br>
 ![ㅁㅁㅁ1](https://github.com/lkh3409/Gram/assets/67497047/24d055f3-3bee-43d6-989f-3a32544828aa)</br>
