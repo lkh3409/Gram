@@ -137,7 +137,7 @@ def crawl2():
     login_id.send_keys('bonsnal') # 아이디 입력
     login_pwd = driver.find_element(By.CSS_SELECTOR, 'input[name="password"]')
     login_pwd.send_keys('rlaxortn0329')
-    driver.implicitly_wait(10)
+    time.sleep(5)
     login_id.send_keys(Keys.ENTER) #enter 키를 쳐주세요
     time.sleep(5)
 
