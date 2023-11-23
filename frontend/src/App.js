@@ -5,7 +5,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-      <Routes>
+      <Routes >
         <Route path='/' exact element={<Main />} />
         <Route path='/test.result' element={<Result />} />
       </Routes>
